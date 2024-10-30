@@ -1,0 +1,84 @@
+#ft_sunlight_container
+{
+	border-radius:5px;
+	border:1px solid #EEE;
+	padding:5px;
+	width:100%;
+	min-width:250px;
+	max-width:300px;
+	height:auto;
+	background:#FFF;
+	color:#000;
+}
+#ft_sunlight_dump
+{
+	width:100%;
+	min-width:250px;
+	max-width:300px;
+	height:300px;
+	overflow:auto;
+	word-wrap:normal;
+}
+#ft_sunlight_top
+{
+	width:100%;
+	min-width:250px;
+	max-width:300px;
+	height:30px;
+	font-size:20px;
+	text-align:center;
+	font-family:"Century Gothic", Centaur, Century;
+	font-weight:bold;
+	border-bottom:1px dashed #EEE;
+	padding-bottom:3px;
+	margin-bottom:3px;
+}
+.spend_info
+{
+	position:relative;
+	display:table-cell;
+	height:auto;
+	vertical-align:middle;
+	width:70%;
+}
+.spend_party
+{
+	position:relative;
+	display:table-cell;
+	height:inherit;
+	margin:auto;
+	vertical-align:middle;
+	left:0;
+	width:30%;
+}
+.box_spend
+{
+	display:table;
+	position:relative;
+	height:auto;
+	overflow:hidden;
+	width:100%;
+}
+.box_spend_row
+{
+	display:table-row;
+}
+.spend_party img
+{
+	margin:auto;
+}
+.box_spend a
+{
+	text-decoration:none;
+	color:#666;
+	font-weight:bold;
+}
+.box_spend a:hover
+{
+	text-decoration:underline;
+	color:#333;
+}
+.clear
+{
+	border:1px dotted #EEE;
+}			
